@@ -35,17 +35,17 @@ class Navbar extends Component {
       //     </li>
       //   </ul>
       // </nav>
-      <div className="flex justify-center bg-gray-400 text-lg">
-        <ul className="flex flex-row space-x-4 text-white">
-          <li className="text-black">
+      <div className="flex fixed left-7 top-1/4 z-50 bg-gray-800 text-lg h-1/2 w-28 font-bold rounded-lg bg-opacity-90">
+        <ul className="grid grid-cols-1 content-evenly text-gray-100 text-opacity-20 mx-5">
+          <li className="flex justify-center hover:text-gray-100 hover:text-opacity-60">
             <NavLink exact to="/">
               Home
             </NavLink>
           </li>
-          <li className="text-red-700">
+          <li className="flex justify-center hover:text-gray-100 hover:text-opacity-60">
             <NavLink to="/stuff">Stuff</NavLink>
           </li>
-          <li className="text-blue-500">
+          <li className="flex justify-center hover:text-gray-100 hover:text-opacity-60">
             <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
@@ -62,14 +62,14 @@ class Content extends Component {
 
   render() {
     return (
-      <div>
+      <div className="relative z-30">
         <div className="">
           <img
             src="Jupiter_Juno.jpg"
             alt=""
             className="w-full h-96 object-cover"
           ></img>
-          <h1 className="flex justify-center text-4xl">Ronald Yeung</h1>
+          <h1 className="flex justify-center text-6xl my-5">Ronald Yeung</h1>
         </div>
 
         <div
@@ -102,9 +102,9 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
-          {this.renderNavbar()}
+        <div className="">
           {this.renderContent()}
+          {this.renderNavbar()}
         </div>
       </HashRouter>
     );
