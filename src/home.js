@@ -4,7 +4,7 @@ import "./main.css";
 class Home extends Component {
   render() {
     return (
-      <div className="text-gray-500">
+      <div className="text-black">
         <h2 className="">HELLO</h2>
         <p>
           Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
