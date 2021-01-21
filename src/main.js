@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import "bootstrap/dist/css/bootstrap.css";
 import "./main.css";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+// import Scrollspy from "react-scrollspy";
 import Home from "./home";
 import Stuff from "./stuff";
 import Contact from "./contact";
@@ -13,40 +13,21 @@ class Navbar extends Component {
   }
   render() {
     return (
-      // <nav className="navbar navbar-expand-lg">
-      //   <ul className="nav justify-content-end">
-      //     <NavLink className="navbar-brand" exact to="/">
-      //       Ronald Yeung
-      //     </NavLink>
-      //     <li className="nav-item color-gray-500">
-      //       <NavLink className="nav-link active" exact to="/">
-      //         Home
-      //       </NavLink>
-      //     </li>
-      //     <li className="nav-item">
-      //       <NavLink className="nav-link" to="/stuff">
-      //         Stuff
-      //       </NavLink>
-      //     </li>
-      //     <li className="nav-item bg-cyan-500">
-      //       <NavLink className="nav-link" to="/contact">
-      //         Contact
-      //       </NavLink>
-      //     </li>
-      //   </ul>
-      // </nav>
-      <div className="flex fixed left-7 top-1/4 z-50 bg-gray-800 text-lg h-1/2 w-28 font-bold rounded-lg bg-opacity-90">
-        <ul className="grid grid-cols-1 content-evenly text-gray-100 text-opacity-20 mx-5">
-          <li className="flex justify-center hover:text-gray-100 hover:text-opacity-60">
-            <NavLink exact to="/">
+      <div
+        id="menu-content"
+        className="flex fixed left-7 top-1/4 z-50 h-1/2 w-28 rounded-lg overflow-hidden"
+      >
+        <ul className="cursor-pointer grid grid-cols-1 font-semibold w-full text-lg">
+          <li className="flex flex-wrap justify-center content-center text-gray-100 text-opacity-60 bg-gray-800 bg-opacity-100 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60 border-l-4 border-transparent border-blue-400 ">
+            <a className="outline-none" href="#section_1">
               Home
-            </NavLink>
+            </a>
           </li>
-          <li className="flex justify-center hover:text-gray-100 hover:text-opacity-60">
-            <NavLink to="/stuff">Stuff</NavLink>
+          <li className="flex flex-wrap justify-center content-center text-gray-100 text-opacity-20 bg-gray-800 bg-opacity-90 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60 border-l-4 border-transparent">
+            <a href="#section_2">Stuff</a>
           </li>
-          <li className="flex justify-center hover:text-gray-100 hover:text-opacity-60">
-            <NavLink to="/contact">Contact</NavLink>
+          <li className="flex flex-wrap justify-center content-center text-gray-100 text-opacity-20 bg-gray-800 bg-opacity-90 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60 border-l-4 border-transparent">
+            <a href="#section_3">Contact</a>
           </li>
         </ul>
       </div>
@@ -66,19 +47,21 @@ class Content extends Component {
         <div className="">
           <img
             src="Jupiter_Juno.jpg"
-            alt=""
-            className="w-full h-96 object-cover"
+            alt="Jupiter"
+            className="bg-fixed w-full h-96 object-cover"
           ></img>
-          <h1 className="flex justify-center text-6xl my-5">Ronald Yeung</h1>
+          <h1 className="flex justify-center text-6xl font-bold my-5">
+            Ronald Yeung
+          </h1>
         </div>
 
         <div
           className="content"
           style={{ marginLeft: "15%", marginRight: "15%" }}
         >
-          <Route exact path="/" component={Home} />
-          <Route path="/stuff" component={Stuff} />
-          <Route path="/contact" component={Contact} />
+          <Home />
+          <Stuff />
+          <Contact />
         </div>
       </div>
     );
@@ -101,12 +84,10 @@ class Main extends Component {
 
   render() {
     return (
-      <HashRouter>
-        <div className="">
-          {this.renderContent()}
-          {this.renderNavbar()}
-        </div>
-      </HashRouter>
+      <div className="">
+        {this.renderNavbar()}
+        {this.renderContent()}
+      </div>
     );
   }
 }
