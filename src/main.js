@@ -24,10 +24,13 @@ class Navbar extends Component {
             </a>
           </li>
           <li className="flex flex-wrap justify-center content-center text-gray-100 text-opacity-20 bg-gray-800 bg-opacity-90 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60 border-l-4 border-transparent">
-            <a href="#section_2">Stuff</a>
+            <a href="#section_2">Intro</a>
           </li>
           <li className="flex flex-wrap justify-center content-center text-gray-100 text-opacity-20 bg-gray-800 bg-opacity-90 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60 border-l-4 border-transparent">
-            <a href="#section_3">Contact</a>
+            <a href="#section_3">Stuff</a>
+          </li>
+          <li className="flex flex-wrap justify-center content-center text-gray-100 text-opacity-20 bg-gray-800 bg-opacity-90 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60 border-l-4 border-transparent">
+            <a href="#section_4">Contact</a>
           </li>
         </ul>
       </div>
@@ -43,14 +46,16 @@ class Content extends Component {
 
   render() {
     return (
-      <div className="relative z-30">
+      <div className="relative z-30" id="section_1">
         <div className="">
-          <img
-            src="Jupiter_Juno.jpg"
-            alt="Jupiter"
-            className="bg-fixed w-full h-96 object-cover"
-          ></img>
-          <h1 className="flex justify-center text-6xl font-bold my-5">
+          <div className="bg-fixed w-full h-96">
+            <img src="Jupiter_Juno.jpg" alt="Jupiter" className=""></img>
+          </div>
+          {/* <div
+            className="bg-fixed bg-center w-full h-96 "
+            style={{ backgroundImage: "url(Jupiter_Juno.jpg)" }}
+          ></div> */}
+          <h1 className="flex justify-center text-6xl text-white font-bold mt-5 mb-36">
             Ronald Yeung
           </h1>
         </div>

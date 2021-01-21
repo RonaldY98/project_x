@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Contact extends Component {
   render() {
     return (
-      <div className="text-blue-500" id="section_3">
+      <div className="text-white my-20 mb-36" id="section_4">
         <h2>GOT QUESTIONS?</h2>
         <p>
           The easiest thing to do is post on our{" "}

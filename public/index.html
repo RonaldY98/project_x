@@ -27,7 +27,7 @@
     <title>React App</title>
     
   </head>
-  <body class="font-custom bg-gray-400" >
+  <body class="font-custom bg-black" >
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" ></div>
     <!--
@@ -65,7 +65,7 @@
         // so we can get a fancy scroll animation
         menuItems.click(function(e) {
             var href = $(this).find("a").attr("href"),
-                offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
+                offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 300;
             $('html, body').stop().animate({
                 scrollTop: offsetTop
             }, 300);
@@ -78,7 +78,7 @@
         // Bind to scroll
         $(window).scroll(function() {
             // Get container scroll position
-            var fromTop = $(this).scrollTop() + topMenuHeight;
+            var fromTop = $(this).scrollTop() + topMenuHeight + 1;
 
             // Get id of current scroll item
             var cur = scrollItems.map(function() {
