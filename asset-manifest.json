@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/project_x/static/css/main.0585d9d0.chunk.css",
-    "main.js": "/project_x/static/js/main.09ea6091.chunk.js",
-    "main.js.map": "/project_x/static/js/main.09ea6091.chunk.js.map",
+    "main.js": "/project_x/static/js/main.f5380130.chunk.js",
+    "main.js.map": "/project_x/static/js/main.f5380130.chunk.js.map",
     "runtime-main.js": "/project_x/static/js/runtime-main.93e9a1b7.js",
     "runtime-main.js.map": "/project_x/static/js/runtime-main.93e9a1b7.js.map",
     "static/js/2.11ac28d3.chunk.js": "/project_x/static/js/2.11ac28d3.chunk.js",
     "static/js/2.11ac28d3.chunk.js.map": "/project_x/static/js/2.11ac28d3.chunk.js.map",
     "index.html": "/project_x/index.html",
     "static/css/main.0585d9d0.chunk.css.map": "/project_x/static/css/main.0585d9d0.chunk.css.map",
-    "static/js/2.11ac28d3.chunk.js.LICENSE.txt": "/project_x/static/js/2.11ac28d3.chunk.js.LICENSE.txt"
+    "static/js/2.11ac28d3.chunk.js.LICENSE.txt": "/project_x/static/js/2.11ac28d3.chunk.js.LICENSE.txt",
+    "static/media/Jupiter_Juno.e53ccb27.jpg": "/project_x/static/media/Jupiter_Juno.e53ccb27.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.93e9a1b7.js",
     "static/js/2.11ac28d3.chunk.js",
     "static/css/main.0585d9d0.chunk.css",
-    "static/js/main.09ea6091.chunk.js"
+    "static/js/main.f5380130.chunk.js"
   ]
 }
