@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./main.css";
 
-class Home extends Component {
+class AboutMe extends Component {
   render() {
     return (
       <div className="text-white my-20" id="section_2">
-        <h2 className="">HELLO</h2>
+        <h2 className="">ABOUT ME</h2>
         <p>
           Cras facilisis urna ornare ex volutpat, et convallis erat elementum.
           Ut aliquam, ipsum vitae gravida suscipit, metus dui bibendum est, eget
@@ -68,4 +68,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default AboutMe;
