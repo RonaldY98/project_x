@@ -15,7 +15,7 @@ class Content extends Component {
       <div className="relative" id="section_1">
         <img
           className="opacity-60 top-0 left-0 fixed w-full h-auto"
-          src="http://localhost:3000/Jupiter_Juno.jpg"
+          src="http://localhost:3000/project_x/Jupiter_Juno.jpg"
           alt=""
         ></img>
         <div
