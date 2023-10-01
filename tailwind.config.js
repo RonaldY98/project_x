@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {},
       fontFamily: {
-        custom: ["Raleway"],
+        raleway: ["Raleway"],
+        inter: ["Inter"],
       },
     },
   },

@@ -14,7 +14,7 @@ class Navbar extends Component {
   render() {
     return (
       <div
-        id="menu-content"
+        id="nav-bar"
         className="flex fixed left-7 top-1/4 z-50 h-1/2 w-28 rounded-lg overflow-hidden"
       >
         <ul className="cursor-pointer grid grid-cols-1 font-semibold w-full text-lg">
