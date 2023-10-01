@@ -4,7 +4,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="text-white my-20" id="section_3">
-        <h2>PROJECTS</h2>
+        <h2 className="text-yellow-200">PROJECTS</h2>
         <p>
           Mauris sem velit, vehicula eget sodales vitae, rhoncus eget sapien:
         </p>

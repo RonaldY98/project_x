@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="text-white my-20 mb-36" id="section_4">
-        <h2>GOT QUESTIONS?</h2>
+        <h2 className="text-yellow-200">CONTACT</h2>
         <p>
           The easiest thing to do is post on our{" "}
           <a href="http://forum.kirupa.com">forums</a>.
