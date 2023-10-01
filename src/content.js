@@ -4,6 +4,7 @@ import AboutMe from "./aboutMe";
 import Projects from "./projects";
 import Contact from "./contact";
 
+import Jupiter_Juno from "./images/Jupiter_Juno.jpg";
 class Content extends Component {
   constructor(props) {
     super(props);
@@ -15,7 +16,7 @@ class Content extends Component {
       <div className="relative" id="section_1">
         <img
           className="opacity-60 top-0 left-0 fixed w-full h-auto"
-          src="http://localhost:3000/project_x/Jupiter_Juno.jpg"
+          src={Jupiter_Juno}
           alt=""
         ></img>
         <div
