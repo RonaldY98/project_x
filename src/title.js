@@ -7,8 +7,8 @@ class Title extends Component {
   }
   render() {
     return (
-      <div className="h-screen">
-        <h1 className="flex justify-center text-8xl text-yellow-200 mt-96 mb-3 font-inter">
+      <div className="h-screen pt-96 " id="section_1">
+        <h1 className="flex justify-center text-8xl text-yellow-200 mb-3 font-inter">
           Ronald Yeung
         </h1>
         <h3 className="flex justify-center text-3xl text-white font-bold">

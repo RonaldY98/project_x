@@ -11,7 +11,7 @@ class Navbar extends Component {
         id="nav-bar"
         className="flex fixed left-7 top-1/4 z-50 h-1/2 w-28 rounded-lg overflow-hidden"
       >
-        <ul className="cursor-pointer grid grid-cols-1 font-semibold w-full text-lg">
+        <ul className="cursor-pointer grid grid-cols-1 w-full text-lg font-inter">
           {/* To add border use 'border-l-4 border-transparent border-blue-400' */}
           <li className="flex flex-wrap justify-center content-center text-gray-100 text-opacity-60 bg-gray-800 bg-opacity-100 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60">
             <a className="outline-none" href="#section_1">
