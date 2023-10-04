@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/project_x/static/css/main.0585d9d0.chunk.css",
-    "main.js": "/project_x/static/js/main.f0cc4910.chunk.js",
-    "main.js.map": "/project_x/static/js/main.f0cc4910.chunk.js.map",
+    "main.js": "/project_x/static/js/main.f482ef56.chunk.js",
+    "main.js.map": "/project_x/static/js/main.f482ef56.chunk.js.map",
     "runtime-main.js": "/project_x/static/js/runtime-main.93e9a1b7.js",
     "runtime-main.js.map": "/project_x/static/js/runtime-main.93e9a1b7.js.map",
     "static/js/2.11ac28d3.chunk.js": "/project_x/static/js/2.11ac28d3.chunk.js",
@@ -10,12 +10,17 @@
     "index.html": "/project_x/index.html",
     "static/css/main.0585d9d0.chunk.css.map": "/project_x/static/css/main.0585d9d0.chunk.css.map",
     "static/js/2.11ac28d3.chunk.js.LICENSE.txt": "/project_x/static/js/2.11ac28d3.chunk.js.LICENSE.txt",
-    "static/media/Jupiter_Juno.e53ccb27.jpg": "/project_x/static/media/Jupiter_Juno.e53ccb27.jpg"
+    "static/media/Jupiter_Juno.e53ccb27.jpg": "/project_x/static/media/Jupiter_Juno.e53ccb27.jpg",
+    "static/media/cat.d1f06422.jpg": "/project_x/static/media/cat.d1f06422.jpg",
+    "static/media/icons8-github.482bc8b9.svg": "/project_x/static/media/icons8-github.482bc8b9.svg",
+    "static/media/icons8-gmail.e1bc2ceb.svg": "/project_x/static/media/icons8-gmail.e1bc2ceb.svg",
+    "static/media/icons8-instagram.c83e628e.svg": "/project_x/static/media/icons8-instagram.c83e628e.svg",
+    "static/media/icons8-linkedin.c304a414.svg": "/project_x/static/media/icons8-linkedin.c304a414.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.93e9a1b7.js",
     "static/js/2.11ac28d3.chunk.js",
     "static/css/main.0585d9d0.chunk.css",
-    "static/js/main.f0cc4910.chunk.js"
+    "static/js/main.f482ef56.chunk.js"
   ]
 }
