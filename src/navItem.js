@@ -11,12 +11,11 @@ class NavItem extends Component {
   }
   render() {
     let classAttributes =
-      "flex flex-wrap justify-center content-center text-gray-100 bg-gray-800 hover:bg-opacity-100 hover:text-gray-100 hover:text-opacity-60";
+      "flex flex-wrap justify-center content-center text-gray-100 hover:text-gray-100 hover:text-opacity-60";
     if (!this.state.active) {
-      classAttributes +=
-        " text-opacity-20 bg-opacity-90 border-l-4 border-transparent";
+      classAttributes += " text-opacity-20 border-l-4 border-transparent";
     } else {
-      classAttributes += " text-opacity-60 bg-opacity-100";
+      classAttributes += " text-opacity-60";
     }
 
     console.log(this.state.title, this.state.scrollspyId);
