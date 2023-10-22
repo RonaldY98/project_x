@@ -3,6 +3,7 @@ import Title from "./title";
 import AboutMe from "./aboutMe";
 import Projects from "./projects";
 import Contact from "./contact";
+import ScrollSpy from "react-ui-scrollspy";
 
 class Content extends Component {
   constructor(props) {
@@ -18,10 +19,12 @@ class Content extends Component {
           marginRight: "15%",
         }}
       >
-        <Title />
-        <AboutMe />
-        <Projects />
-        <Contact />
+        <ScrollSpy>
+          <Title />
+          <AboutMe />
+          <Projects />
+          <Contact />
+        </ScrollSpy>
       </div>
     );
   }
