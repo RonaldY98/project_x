@@ -19,7 +19,7 @@ class Content extends Component {
           marginRight: "15%",
         }}
       >
-        <ScrollSpy>
+        <ScrollSpy scrollThrottle={10} offsetTop={-600}>
           <Title />
           <AboutMe />
           <Projects />
