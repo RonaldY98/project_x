@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/project_x/static/css/main.0585d9d0.chunk.css",
-    "main.js": "/project_x/static/js/main.f482ef56.chunk.js",
-    "main.js.map": "/project_x/static/js/main.f482ef56.chunk.js.map",
-    "runtime-main.js": "/project_x/static/js/runtime-main.93e9a1b7.js",
-    "runtime-main.js.map": "/project_x/static/js/runtime-main.93e9a1b7.js.map",
-    "static/js/2.11ac28d3.chunk.js": "/project_x/static/js/2.11ac28d3.chunk.js",
-    "static/js/2.11ac28d3.chunk.js.map": "/project_x/static/js/2.11ac28d3.chunk.js.map",
+    "main.css": "/project_x/static/css/main.74e8e6c6.css",
+    "main.js": "/project_x/static/js/main.413affaf.js",
+    "static/media/cat.jpg": "/project_x/static/media/cat.d1f064228ef9062cb8bb.jpg",
+    "static/media/Jupiter_Juno.jpg": "/project_x/static/media/Jupiter_Juno.e53ccb27cebfb9158d10.jpg",
+    "static/media/icons8-instagram.svg": "/project_x/static/media/icons8-instagram.c83e628eea4e83e0d2b6c8e54910510c.svg",
+    "static/media/icons8-linkedin.svg": "/project_x/static/media/icons8-linkedin.c304a4148cde039a54532585f4d47b48.svg",
     "index.html": "/project_x/index.html",
-    "static/css/main.0585d9d0.chunk.css.map": "/project_x/static/css/main.0585d9d0.chunk.css.map",
-    "static/js/2.11ac28d3.chunk.js.LICENSE.txt": "/project_x/static/js/2.11ac28d3.chunk.js.LICENSE.txt",
-    "static/media/Jupiter_Juno.e53ccb27.jpg": "/project_x/static/media/Jupiter_Juno.e53ccb27.jpg",
-    "static/media/cat.d1f06422.jpg": "/project_x/static/media/cat.d1f06422.jpg",
-    "static/media/icons8-github.482bc8b9.svg": "/project_x/static/media/icons8-github.482bc8b9.svg",
-    "static/media/icons8-gmail.e1bc2ceb.svg": "/project_x/static/media/icons8-gmail.e1bc2ceb.svg",
-    "static/media/icons8-instagram.c83e628e.svg": "/project_x/static/media/icons8-instagram.c83e628e.svg",
-    "static/media/icons8-linkedin.c304a414.svg": "/project_x/static/media/icons8-linkedin.c304a414.svg"
+    "static/media/icons8-github.svg": "/project_x/static/media/icons8-github.482bc8b9ef70a822d8d50807a99c5007.svg",
+    "static/media/icons8-gmail.svg": "/project_x/static/media/icons8-gmail.e1bc2ceb745debf9361ad2160a79823a.svg",
+    "main.74e8e6c6.css.map": "/project_x/static/css/main.74e8e6c6.css.map",
+    "main.413affaf.js.map": "/project_x/static/js/main.413affaf.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.93e9a1b7.js",
-    "static/js/2.11ac28d3.chunk.js",
-    "static/css/main.0585d9d0.chunk.css",
-    "static/js/main.f482ef56.chunk.js"
+    "static/css/main.74e8e6c6.css",
+    "static/js/main.413affaf.js"
   ]
 }
