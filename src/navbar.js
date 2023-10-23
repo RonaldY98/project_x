@@ -1,6 +1,6 @@
 import React from "react";
 import NavItem from "./navItem";
-import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   // const { scrollYProgress } = useScroll();
