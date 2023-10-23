@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-// import "bootstrap/dist/css/bootstrap.css";
 import "./main.css";
-// import Scrollspy from "react-scrollspy";
-import Navbar from "./navbar";
 import Content from "./content";
 import Footer from "./footer";
 import Jupiter_Juno from "./images/Jupiter_Juno.jpg";
+import Title from "./title";
 
 class Main extends Component {
   constructor(props) {
@@ -22,7 +20,7 @@ class Main extends Component {
           alt=""
         ></img>
         <div className="content relative">
-          <Navbar />
+          <Title />
           <Content />
           <Footer />
         </div>
