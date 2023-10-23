@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { motion } from "framer-motion";
 
 class Title extends Component {
   constructor(props) {
@@ -8,15 +9,27 @@ class Title extends Component {
   render() {
     return (
       <div className="h-screen pt-96 " id="section_1">
-        <h1 className="flex justify-center text-8xl text-yellow-200 mb-3 font-inter font-light">
+        <motion.h1
+          className="flex justify-center text-8xl text-yellow-200 mb-3 font-inter font-light"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+        >
           Ronny Yeung
-        </h1>
-        <h3 className="flex justify-center text-3xl text-white font-bold">
+        </motion.h1>
+        <motion.h3
+          className="flex justify-center text-3xl text-white font-bold"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+        >
           Software Engineer | Bartender | Creative
-        </h3>
-        <h3 className="flex justify-center text-white">
+        </motion.h3>
+        <motion.h3
+          className="flex justify-center text-white"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+        >
           The World's Your Oyster, And It's Buck a' Shuck
-        </h3>
+        </motion.h3>
       </div>
     );
   }
