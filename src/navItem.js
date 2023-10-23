@@ -11,7 +11,7 @@ class NavItem extends Component {
   }
   render() {
     let classAttributes =
-      "flex flex-wrap justify-center content-center text-gray-100 hover:text-gray-100 hover:text-opacity-60";
+      "flex flex-wrap justify-center content-center text-gray-100 hover:text-gray-100 hover:text-opacity-60 whitespace-nowrap";
     if (!this.state.active) {
       classAttributes += " text-opacity-20 border-l-4 border-transparent";
     } else {
@@ -21,9 +21,11 @@ class NavItem extends Component {
     console.log(this.state.title, this.state.scrollspyId);
 
     return (
-      <li className={classAttributes}>
-        <p data-to-scrollspy-id={this.state.scrollspyId}>{this.state.title}</p>
-      </li>
+      <div className={classAttributes} style={{ height: "33vh" }}>
+        <p data-to-scrollspy-id={this.state.scrollspyId} className="w-auto">
+          {this.state.title}
+        </p>
+      </div>
     );
   }
 }
