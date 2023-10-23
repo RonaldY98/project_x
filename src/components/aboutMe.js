@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import "./main.css";
-import cat from "./images/cat.jpg";
+import cat from "../images/cat.jpg";
 
 const AboutMe = () => {
   return (

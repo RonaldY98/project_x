@@ -2,7 +2,7 @@ import React from "react";
 import NavItem from "./navItem";
 import { motion } from "framer-motion";
 
-export default function Navbar() {
+const Navbar = () => {
   // const { scrollYProgress } = useScroll();
 
   // useMotionValueEvent(scrollYProgress, "change", (latest) => {
@@ -44,4 +44,6 @@ export default function Navbar() {
       </motion.div>
     </motion.div>
   );
-}
+};
+
+export default Navbar;
