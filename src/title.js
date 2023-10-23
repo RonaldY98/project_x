@@ -12,7 +12,7 @@ class Title extends Component {
           Ronny Yeung
         </h1>
         <h3 className="flex justify-center text-3xl text-white font-bold">
-          Software Engineer | Bartender | Optimist
+          Software Engineer | Bartender | Creative
         </h3>
         <h3 className="flex justify-center text-white">
           The World's Your Oyster, And It's Buck a' Shuck
